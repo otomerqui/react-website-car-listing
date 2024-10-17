@@ -5,6 +5,8 @@ import Imageslider from '../components/Imageslider';
 import { FaStar } from 'react-icons/fa';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
+
 
 const Details = ({cars}) =>    {
     
@@ -61,6 +63,7 @@ const Details = ({cars}) =>    {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>        
     )
 }
